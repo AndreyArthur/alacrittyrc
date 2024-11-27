@@ -1,0 +1,29 @@
+
+[colors.cursor]
+text = 'CellBackground'
+cursor = 'CellForeground'
+
+[colors.vi_mode_cursor]
+text = 'CellBackground'
+cursor = 'CellForeground'
+
+[window]
+    dimensions.columns = 80
+    dimensions.lines = 24
+    decorations = "Full"
+    decorations_theme_variant = "Dark"
+
+[font]
+    normal.family = "IosevkaTerm Nerd Font Mono"
+    normal.style = "Medium"
+    size = 13.5
+    offset.y = -1
+    offset.x = 0
+
+[keyboard]
+    bindings = [{ key = "F11", action = "ToggleFullscreen" }, { key = 127, action = "None" }]
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+]
